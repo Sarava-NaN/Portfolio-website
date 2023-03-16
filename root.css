@@ -232,7 +232,42 @@ img {
 }
 
 /*Media Query */
+
+@media screen and (max-width:780px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .User_Name {
+        margin-top: 10rem;
+        text-align: start;
+        margin-left: -200px;
+    }
+
+    .hi {
+        color: var(--bs-gray-100);
+        font-size: 3.8rem;
+        margin-bottom: 20px;
+    }
+
+    .im {
+        color: var(--bs-gray-100);
+        text-transform: uppercase;
+        width: 280px;
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+        word-spacing: .5rem;
+        width: 300px;
+    }
+
+    .programmer {
+        margin-top: 1rem;
+        width: 650px;
+    }
+}
+
 @media screen and (max-width:575px) {
+
 
     body {
         background: url(ivana-cajina-asuyh-_ZX54-unsplash.jpg);
@@ -383,12 +418,12 @@ img {
     }
 
     .im {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .programmer {
         margin-top: 1rem;
-        width: 450px;
+        width: 389px;
     }
 
     /* Article */
@@ -399,13 +434,13 @@ img {
     .center {
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         color: var(--bs-gray-100);
     }
 
     .myself {
-        width: 340px;
-        font-size: 1.2rem;
+        width: 390px;
+        font-size: 1.8rem;
         padding: 12px;
         margin: auto;
     }
@@ -439,8 +474,11 @@ img {
     .footer {
         flex-direction: column;
         text-align: center;
-        font-size: .6rem;
+        font-size: 1rem;
         color: var(--soumiya-);
+        margin-top: 2rem;
+        height: 30vh;
+        font-family: monospace;
     }
 
     .footer-icon {
