@@ -162,7 +162,7 @@ img {
 
 .line {
     margin-top: 3rem;
-    color: var(--bs-blue);
+    color: var(--bs-gray-400);
 }
 
 .avatar {
@@ -194,7 +194,7 @@ img {
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--bs-gray-900);
-    color: #dee2e6;
+    color: var(--soumiya-);
     height: 15vh;
 }
 
@@ -285,26 +285,15 @@ img {
 
     .myself {
         width: 350px;
-        font-size: .9rem;
+        font-size: 1.3rem;
         margin: auto;
         padding: 12px;
     }
 
     .line {
         margin-top: 3rem;
-        color: var(--bs-blue);
+        color: var(--bs-gray-400);
     }
-
-    /* 
-    .myself {
-        width: 420px;
-        margin: auto;
-        margin-bottom: 2rem;
-    }
-
-    .line {
-        margin-top: 2.2rem;
-    } */
 
     .avatar {
         width: 250px;
@@ -331,6 +320,7 @@ img {
         flex-direction: column;
         text-align: center;
         font-size: .8rem;
+        color: var(--soumiya-);
     }
 }
 
@@ -375,14 +365,14 @@ img {
 
     .myself {
         width: 340px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 12px;
         margin: auto;
     }
 
     .line {
         margin-top: 1.4rem;
-        color: var(--bs-blue);
+        color: var(--bs-gray-400);
     }
 
     .avatar {
@@ -410,6 +400,7 @@ img {
         flex-direction: column;
         text-align: center;
         font-size: .6rem;
+        color: var(--soumiya-);
     }
 }
 
