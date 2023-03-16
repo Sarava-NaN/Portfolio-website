@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="root.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sarwan</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">blogs</a></li>
+        </ul>
+        <div class="nav-bar">
+            <div class="link-1"></div>
+            <div class="link-2"></div>
+            <div class="link-3"></div>
+        </div>
+    </header>
+    <main>
+        <div class="grid">
+            <div class="User_Name">
+                <h1 class="hi">
+                    Hi There!
+                </h1>
+                <h1 class="im">
+                    i'm <span>saravanan madeshwaran</span>
+                </h1>
+            </div>
+            <div class="programmer">
+                <img src="home-main.svg" alt="">
+            </div>
+        </div>
+    </main>
+    <article>
+        <div class="center">
+            <h1>let me <span class="intro">introduce</span> <br> myself</h1>
+        </div>
+        <div class="flex-2">
+            <div class="myself">
+                <div class="line">
+                    <p>
+                        i feel in love with programming and i have at least learnt something.i think...
+                    </p>
+                </div>
+                <div class="line">
+                    <p>
+                        i am fluent in classics like html,css,javascript,bootstrap and react js
+                    </p>
+                </div>
+                <div class="line">
+                    <p>
+                        My field of interest's are building new web <span> web technologies and products</span>and also
+                        in areas related to deep learning and natural
+                        launguage processing </p>
+                </div>
+                <div class="line">
+                    <p>
+                        whenever possible,i also apply my passion for developing web with <span>Html,css and modern
+                            javascript library and frameworks like react.js</span>
+                    </p>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="avatar.5852f40fbb38aa284829fa3fb7722225.svg" alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="findme">
+            <div class="contact">
+                <h1>find me on</h1>
+                <h3>feel free to connect with me</h3>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer">
+            <h1>Designed and developed by Saravanan</h1>
+            <h1>copyright &copy; 2023</h1>
+        </div>
+    </footer>
+    <script>
+        let $btn = document.querySelector('.nav-bar');
+        let $links = document.querySelector('.nav-links');
+        $btn.addEventListener("click", () => {
+            $links.classList.toggle("toggleBtn");
+            $btn.children[0].classList.toggle('new_0');
+            $btn.children[1].classList.toggle('new_1');
+            $btn.children[2].classList.toggle('new_2');
+
+        });
+    </script>
+</body>
+
+</html>
