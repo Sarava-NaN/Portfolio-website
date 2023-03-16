@@ -114,16 +114,16 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6rem;
-    margin-top:8rem
+    margin-top:2rem
 }
 
 .User_Name {
-    margin-left: 6rem;
+    margin-left: 3rem;
 }
 
 .hi {
     color: var(--bs-gray-100);
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-bottom: 2rem;
 }
 
