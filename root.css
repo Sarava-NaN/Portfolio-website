@@ -114,17 +114,15 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6rem;
-    margin-top:2rem
 }
 
 .User_Name {
-    margin-top:3rem;
-    margin-left: 3rem;
+    margin-left: 6rem;
 }
 
 .hi {
     color: var(--bs-gray-100);
-    font-size: 2.6rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -381,16 +379,16 @@ img {
     }
 
     .hi {
-        font-size: 3rem;
+        font-size: 1.4rem;
     }
 
     .im {
-        font-size: 2.2rem;
+        font-size: 1.4rem;
     }
 
     .programmer {
         margin-top: 1rem;
-        width: 450px;
+        width: 330px;
     }
 
     /* Article */
