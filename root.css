@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Sansita+Swashed:wght@500&display=swap');
+
 :root {
     --soumiya-: #BE50F4;
     --bs-blue: #0d6efd;
@@ -37,6 +40,12 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: 'Raleway'; */
+}
+
+.purple {
+    color: var(--soumiya-);
+    font-family: 'Sansita Swashed', cursive;
+    text-transform: capitalize;
 }
 
 body {
@@ -157,7 +166,8 @@ img {
 
 .myself {
     width: 650px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-family: monospace;
 }
 
 .line {
@@ -170,12 +180,24 @@ img {
 }
 
 .findme {
+    margin-bottom: 2rem;
     margin-right: 8rem;
     color: var(--bs-gray-100);
 }
 
 .contact {
+    font-family: 'Raleway', sans-serif;
     text-align: end;
+    margin-bottom: 1.2rem;
+}
+
+.icons {
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    gap: 3rem;
+    font-size: 2rem;
+    justify-content: flex-end;
 }
 
 .contact>h1 {
@@ -198,16 +220,24 @@ img {
     height: 15vh;
 }
 
+.footer-icon {
+    font-size: 1.5rem;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.footer-icon>i {
+    cursor: pointer;
+}
+
 /*Media Query */
 @media screen and (max-width:575px) {
 
     body {
-        /* background-color: #000000; */
         background: url(ivana-cajina-asuyh-_ZX54-unsplash.jpg);
         background-position: center;
-        /* height: 100vh; */
         background-size: cover;
-        /* width: 100%; */
         background-attachment: fixed;
     }
 
@@ -301,6 +331,7 @@ img {
 
     .findme {
         margin: auto;
+        margin-bottom: 2rem;
     }
 
     .contact {
@@ -309,11 +340,20 @@ img {
     }
 
     .contact>h1 {
+        font-family: cursive;
         font-size: 2rem;
     }
 
     .contact>h3 {
         font-size: 1rem;
+    }
+
+    .icons {
+        display: flex;
+        margin: auto;
+        gap: 2rem;
+        font-size: 2rem;
+        justify-content: center;
     }
 
     .footer {
@@ -401,6 +441,12 @@ img {
         text-align: center;
         font-size: .6rem;
         color: var(--soumiya-);
+    }
+
+    .footer-icon {
+        font-size: 1.4rem;
+        justify-content: space-between;
+        width: 30%;
     }
 }
 
