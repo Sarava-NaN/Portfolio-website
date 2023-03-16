@@ -39,9 +39,9 @@
     /* font-family: 'Raleway'; */
 }
 
-/* body {
-    background: url(background.avif);
-} */
+body {
+    background-color: #000000;
+}
 
 header {
     background-color: var(--bs-gray-900);
@@ -104,8 +104,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
-    margin: auto;
+    margin-bottom: 6rem;
 }
 
 .User_Name {
@@ -113,11 +112,13 @@ a {
 }
 
 .hi {
+    color: var(--bs-gray-100);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
 .im {
+    color: var(--bs-gray-100);
     text-transform: uppercase;
     width: 400px;
     font-size: 3rem;
@@ -147,6 +148,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
+    color: var(--bs-gray-100);
 }
 
 .intro {
@@ -154,7 +156,7 @@ img {
 }
 
 .myself {
-    width: 400px;
+    width: 650px;
     font-size: 1.3rem;
 }
 
@@ -163,14 +165,14 @@ img {
 }
 
 .line {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     color: var(--bs-blue);
 }
 
 .findme {
-    margin: auto;
-    width: 1200px;
+    margin-right: 5rem;
+    width: auto;
+    color: var(--bs-gray-100);
 }
 
 .contact {
@@ -192,13 +194,23 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #212529;
+    background-color: var(--bs-gray-900);
     color: #dee2e6;
     height: 15vh;
 }
 
 /*Media Query */
 @media screen and (max-width:575px) {
+
+    body {
+        /* background-color: #000000; */
+        background: url(ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+        background-position: center;
+        /* height: 100vh; */
+        background-size: cover;
+        /* width: 100%; */
+        background-attachment: fixed;
+    }
 
     .nav-links {
         position: fixed;
@@ -224,18 +236,25 @@ img {
     }
 
     .User_Name {
-        margin-top: 8rem;
+        margin-top: 12rem;
         text-align: start;
+        margin-left: -50px;
     }
 
     .hi {
+        color: var(--bs-gray-100);
         font-size: 1.8rem;
+        margin-bottom: 20px;
     }
 
     .im {
+        color: var(--bs-gray-100);
         text-transform: uppercase;
         width: 280px;
         font-size: 1.8rem;
+        line-height: 2.5rem;
+        word-spacing: .5rem;
+        width: 300px;
     }
 
     .programmer {
@@ -251,24 +270,31 @@ img {
     .center {
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.9rem;
+        font-size: 1.3rem;
+        color: var(--bs-gray-100);
     }
 
-    .intro {
-        color: var(--soumiya-);
+    .myself {
+        width: 420px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .line {
+        margin-top: 2.2rem;
     }
 
     .avatar {
-        width: 300px;
+        width: 250px;
     }
 
     .findme {
         margin: auto;
-        width: auto;
     }
 
     .contact {
         text-align: center;
+        color: var(--bs-gray-100);
     }
 
     .contact>h1 {
@@ -282,9 +308,8 @@ img {
     .footer {
         flex-direction: column;
         text-align: center;
-        margin-bottom: 0;
+        font-size: .6rem;
     }
-
 }
 
 /* After JAVASCRIPT CODES */
