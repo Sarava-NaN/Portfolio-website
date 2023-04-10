@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="root.css">
+    <script src="https://kit.fontawesome.com/617bc55c6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sarwan</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="#">blogs</a></li>
+        </ul>
+        <div class="nav-bar">
+            <div class="link-1"></div>
+            <div class="link-2"></div>
+            <div class="link-3"></div>
+        </div>
+    </header>
+    <div class="resume">
+        <button class="resume-btn"><span></span> Download CV</button>
+        <h1 class="load">Loading PDF</h1>
+        <button class="resume-btn"><span></span>Download CV</button>
+    </div>
+    <div class="myresume">
+    </div>
+    <footer>
+        <div class="footer">
+            <h1>Designed and developed by Saravanan</h1>
+            <h1>copyright &copy; 2023</h1>
+            <div class="footer-icon">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let $btn = document.querySelector('.nav-bar');
+        let $links = document.querySelector('.nav-links');
+        $btn.addEventListener("click", () => {
+            $links.classList.toggle("toggleBtn");
+            $btn.children[0].classList.toggle('new_0');
+            $btn.children[1].classList.toggle('new_1');
+            $btn.children[2].classList.toggle('new_2');
+
+        });
+    </script>
+</body>
+
+</html>
