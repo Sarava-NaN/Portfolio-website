@@ -107,6 +107,9 @@ img {
         width: 200px;
 
     }
+    .line>p{
+        margin-bottom:1.5rem;
+    }
 
     footer {
         display: flex;
