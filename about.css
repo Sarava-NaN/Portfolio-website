@@ -37,8 +37,8 @@ img {
 .box {
     width: 280px;
     border: 2px solid purple;
-    height: 180px;
-    margin-bottom: 18px;
+    height: 200px;
+    margin-bottom: 38px;
     cursor: pointer;
     transition: 2s;
 }
@@ -50,7 +50,7 @@ img {
     justify-content: center;
     display: flex;
     align-self: center;
-    height: 34vh;
+    height: 30vh;
     font-size: 2rem;
 }
 
@@ -92,6 +92,7 @@ img {
 
     .skillset>h1 {
         font-size: 2.3rem;
+        margin-bottom: 2rem;
     }
 
     .skillset {
@@ -100,6 +101,11 @@ img {
 
     .skillsetflex {
         text-align: center;
+    }
+
+    .box {
+        width: 200px;
+
     }
 
     footer {
