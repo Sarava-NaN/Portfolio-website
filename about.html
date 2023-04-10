@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/617bc55c6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sarwan</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">blogs</a></li>
+        </ul>
+        <div class="nav-bar">
+            <div class="link-1"></div>
+            <div class="link-2"></div>
+            <div class="link-3"></div>
+        </div>
+    </header>
+
+    <article>
+        <div class="center">
+            <h1>KNOW WHO <span class="intro">I'M</span></h1>
+        </div>
+        <div class="flex-2">
+            <div class="myself">
+                <div class="line">
+                    <p>
+                        hi everyone,i am <span class="purple">saravanan madeshwaran</span> from <span
+                            class="purple">krishnagiri,tamil nadu,india</span>
+                    </p>
+                </div>
+                <div class="line">
+                    <p>
+                        i am a junior <span class="purple">javascript and React js pursuing from online course </span>
+                    </p>
+                </div>
+                <div class="line">
+                    <p>
+                        Apart from coding,some other activities that i love to do!
+                    </p>
+                    <p>
+                        Playing Games,Video Games
+                    </p>
+                    <p>
+                        watching football EPL and LALIGA
+                    </p>
+                    <p>
+                        Travelling
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="container">
+            <div class="paragraph"></div>
+            <div class="img_icon">
+                <img src="about.png" alt="">
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="skillset">
+            <h1>Professional <span class="purple">Skillset</span> </h1>
+        </div>
+        <div class="skillsetflex">
+            <div class="box box-items">
+                <h1>HTML</h1>
+            </div>
+            <div class="box box-items">
+                <h1>CSS</h1>
+            </div>
+            <div class="box box-items">
+                <h1>JS</h1>
+            </div>
+            <div class="box box-items">
+                <h1>REACT JS</h1>
+            </div>
+            <div class="box box-items size">
+                <h1>BOOTSTRAP</h1>
+            </div>
+            <div class="box box-items">
+                <h1>Node JS</h1>
+            </div>
+
+        </div>
+    </article>
+    <footer>
+        <div class="footer">
+            <h1>Designed and developed by Saravanan</h1>
+            <h1>copyright &copy; 2023</h1>
+            <div class="footer-icon">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let $btn = document.querySelector('.nav-bar');
+        let $links = document.querySelector('.nav-links');
+        $btn.addEventListener("click", () => {
+            $links.classList.toggle("toggleBtn");
+            $btn.children[0].classList.toggle('new_0');
+            $btn.children[1].classList.toggle('new_1');
+            $btn.children[2].classList.toggle('new_2');
+
+        });
+    </script>
+</body>
+
+</html>

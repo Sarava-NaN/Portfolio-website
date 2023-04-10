@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    transform: translateY(220%);
+}
+
+.flex-2 {
+    margin-top: 8rem;
+}
+
+.img_icon {
+    width: max-content;
+}
+
+img {
+    width: 100%;
+}
+
+.skillset {
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.skillsetflex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.box {
+    width: 280px;
+    border: 2px solid purple;
+    height: 180px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.box-items>h1 {
+    color: var(--bs-gray-100);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    height: 34vh;
+    font-size: 2rem;
+}
+
+.size {
+    font-size: 1rem;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:425px) {
+    header {
+        position: fixed;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .center {
+        transform: translateY(333%);
+    }
+
+    .center>h1 {
+        transform: translateX(10px);
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .img_icon {
+        width: auto;
+    }
+
+    .skillset>h1 {
+        font-size: 2.3rem;
+    }
+
+    .skillset {
+        text-align: center;
+    }
+
+    .skillsetflex {
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+    }
+
+    .footer>h1 {
+        font-size: 1.4rem;
+    }
+}
