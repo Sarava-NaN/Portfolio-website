@@ -120,21 +120,60 @@ a {
     margin-left: 6rem;
 }
 
-.hi {
+.outer-heading {
     color: var(--bs-gray-100);
     font-size: 3rem;
-    margin-bottom: 2rem;
 }
 
-.im {
+.inner-heading {
     color: var(--bs-gray-100);
     text-transform: uppercase;
-    width: 400px;
-    font-size: 3rem;
+        font-size: 3rem;
+        text-transform: capitalize;
+            height: 50px;
+            line-height: 48px;
+            border: 0px solid #ddd;
+            overflow: hidden;
 }
-
-.im>span {
+.inner-heading>span {
     color: var(--soumiya-);
+    position: relative;
+    animation: Anime 13s ease-in-out infinite;
+}
+@keyframes Anime {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    25% {
+        top: -50px;
+    }
+
+    45% {
+        top: -50px;
+    }
+
+    50% {
+        top: -100px;
+    }
+
+    70% {
+        top: -100px;
+    }
+
+    75% {
+        top: -150px;
+    }
+
+    95% {
+        top: -150px;
+    }
 }
 
 .programmer {
@@ -413,13 +452,20 @@ img {
         display: block;
     }
 
-    .hi {
-        font-size: 3rem;
+ .outer-heading{
+             margin-top: -6rem;
+            font-size: larger;
+            text-align:start;
     }
-
-    .im {
-        font-size: 2.2rem;
+    .inner-heading{
+    text-transform:uppercase;
+    font-size: 1.2rem;
+    height: 50px;
+    line-height: 48px;
+    border: 0px solid #ddd;
+    overflow: hidden;
     }
+   
 
     .programmer {
         margin-top: 1rem;
