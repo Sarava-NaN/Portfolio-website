@@ -119,11 +119,11 @@ a {
 .User_Name {
     margin-left: 6rem;
 }
-
 .saravanan{
     font-family:monospace;
-    font-size: 28px;
+    font-size:4rem;
     color:crimson;
+    text-transform: uppercase;
 }
 .outer-heading {
     color: var(--bs-gray-100);
@@ -287,22 +287,24 @@ img {
         text-align: start;
         margin-left: -200px;
     }
-
-    .hi {
-        color: var(--bs-gray-100);
-        font-size: 3.8rem;
-        margin-bottom: 20px;
+      .outer-heading {
+            color: var(--bs-gray-100);
+            font-size: 3.5rem;
+            margin-top: 3.5rem;
+        }
+    .saravanan{
+        font-size: 48px;
     }
-
-    .im {
-        color: var(--bs-gray-100);
-        text-transform: uppercase;
-        width: 280px;
-        font-size: 2.8rem;
-        line-height: 2.5rem;
-        word-spacing: .5rem;
-        width: 300px;
-    }
+        .inner-heading {
+            color: var(--bs-gray-100);
+            text-transform: uppercase;
+            font-size:2.5rem;
+            text-transform: capitalize;
+            height: 50px;
+            line-height: 48px;
+            border: 0px solid #ddd;
+            overflow: hidden;
+        }
 
     .programmer {
         margin-top: 1rem;
@@ -358,23 +360,22 @@ img {
         text-align: start;
         margin-left: -50px;
     }
+    .outer-heading {
+    color: var(--bs-gray-100);
+    font-size: 2.5rem;
+}
 
-    .hi {
-        color: var(--bs-gray-100);
-        font-size: 1.8rem;
-        margin-bottom: 20px;
-    }
-
-    .im {
-        color: var(--bs-gray-100);
-        text-transform: uppercase;
-        width: 280px;
-        font-size: 1.8rem;
-        line-height: 2.5rem;
-        word-spacing: .5rem;
-        width: 300px;
-    }
-
+.inner-heading {
+    color: var(--bs-gray-100);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    height: 50px;
+    line-height: 48px;
+    border: 0px solid #ddd;
+    overflow: hidden;
+}
+   
     .programmer {
         margin-top: 1rem;
         width: 350px;
@@ -456,9 +457,7 @@ img {
     .nav-bar {
         display: block;
     }
-
-
-    .outer-heading{
+        .outer-heading{
              margin-top: -1rem;
              margin-left: 22px;
             font-size: 40px;
@@ -473,8 +472,13 @@ img {
     border: 0px solid #ddd;
     overflow: hidden;
     }
-
-   
+        .saravanan {
+            font-size: 48px;
+            font-weight: 900;
+        }
+        .front-end{
+            font-size:1.9rem;
+        }
 
     .programmer {
         margin-top: 1rem;
