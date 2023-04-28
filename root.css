@@ -140,7 +140,7 @@ a {
             border: 0px solid #ddd;
             overflow: hidden;
 }
-.inner-heading>span {
+.inner-heading>span,.front-end {
     color: var(--soumiya-);
     position: relative;
     animation: Anime 13s ease-in-out infinite;
