@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Sansita+Swashed:wght@500&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
 
 :root {
     --soumiya-: #BE50F4;
@@ -122,7 +124,7 @@ a {
 .saravanan{
     font-family:monospace;
     font-size:4rem;
-/*  color:crimson; */
+    font-family: "Bruno Ace SC", cursive;
     text-transform: uppercase;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
    -webkit-background-clip: text;
