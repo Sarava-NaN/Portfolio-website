@@ -61,7 +61,11 @@ img {
 .box:hover {
     transform: scale(1.2);
 }
-
+@media screen and (max-width:920px) {
+ .center {
+        transform: translateY(633%);
+    }
+}
 @media screen and (max-width:425px) {
     header {
         position: fixed;
