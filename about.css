@@ -63,12 +63,14 @@ img {
 }
 @media screen and (max-width:920px) {
  .center {
-        transform: translateY(380%);
+        transform: translateY(340%);
     }
 .flex-2 {
     margin-top: 12rem;
 }
-
+    .myself{
+        margin-top:10rem
+    }
 }
 @media screen and (max-width:425px) {
     header {
