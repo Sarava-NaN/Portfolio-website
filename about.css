@@ -68,9 +68,6 @@ img {
 .flex-2 {
     margin-top: 12rem;
 }
-    .myself{
-        margin-top:10rem
-    }
 }
 @media screen and (max-width:425px) {
     header {
