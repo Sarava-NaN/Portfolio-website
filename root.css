@@ -90,7 +90,10 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+a:visited{
+text-decoration:none;
+color:var(--soumiya-);
+}
 .nav-bar {
     height: 20px;
     width: 40px;
