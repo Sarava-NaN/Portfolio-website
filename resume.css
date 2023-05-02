@@ -161,7 +161,18 @@ a {
 //media query
 @media screen and (max-width:920px) {
     .resume {
-        margin-top: 15rem;
+        margin-top: 25rem;
+    }
+       .resume-btn {
+        background-color: rgb(111, 4, 111);
+        width: 280px;
+        padding: 20px 40px;
+        color: rgb(255, 251, 251);
+        font-size: 2rem;
+        cursor: pointer;
+        border-radius: 6px;
+        border: none;
+        outline: none;
     }
 }
 @media screen and (max-width:420px) {
