@@ -161,7 +161,7 @@ a {
 //media query
 @media screen and (max-width:920px) {
     .resume {
-        margin-top: 14rem;
+        margin-top: 15rem;
     }
 }
 @media screen and (max-width:420px) {
