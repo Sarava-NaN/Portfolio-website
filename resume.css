@@ -158,7 +158,12 @@ a {
 .footer-icon>i {
     cursor: pointer;
 }
-
+//media query
+@media screen and (max-width:920px) {
+    .resume {
+        margin-top: 14rem;
+    }
+}
 @media screen and (max-width:420px) {
     .resume {
         margin-top: 8rem;
