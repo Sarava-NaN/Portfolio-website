@@ -297,7 +297,7 @@ img {
 /*Media Query */
 @media screen and (max-width:920px) {
 .User_Name{
-    margin-top: 9rem;
+    margin-top: 14rem;
 }
  .outer-heading {
      font-size: 60px;
