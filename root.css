@@ -295,7 +295,7 @@ img {
 }
 
 /*Media Query */
-@media screen and (max-width:820px) {
+@media screen and (max-width:920px) {
 .User_Name{
     margin-top: 9rem;
 }
