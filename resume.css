@@ -161,10 +161,10 @@ a {
 //media query
 @media screen and (max-width:920px) {
     .resume {
-        margin-top: 45rem;
+        margin-top: 65rem;
     }
        .resume-btn {
-        margin-top: 25rem;
+        margin-top: 45rem;
         background-color: rgb(111, 4, 111);
         width: 280px;
         padding: 20px 40px;
