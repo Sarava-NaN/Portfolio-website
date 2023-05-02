@@ -63,7 +63,7 @@ img {
 }
 @media screen and (max-width:920px) {
  .center {
-        transform: translateY(433%);
+        transform: translateY(333%);
     }
 }
 @media screen and (max-width:425px) {
