@@ -160,6 +160,9 @@ a {
 }
 //media query
 @media screen and (max-width:920px) {
+     .resume {
+        margin-top: 95rem;
+    }
        .resume-btn {
         margin-top: 100rem;
         background-color: rgb(111, 4, 111);
